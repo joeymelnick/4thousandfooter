@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#rotatingSection > div:gt(0)").hide(),setInterval(function(){$("#rotatingSection > div:first").fadeOut(1e3).next().fadeIn(1e3).end().appendTo("#rotatingSection")},5e3)});

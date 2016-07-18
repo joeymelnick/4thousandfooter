@@ -1,0 +1,232 @@
+/* Buttons */
+body {
+  background-color: #f0f0f0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+.button {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.5em;
+  padding: 10px;
+  background-color: #1c4d42;
+  /* CHANGE THIS COLOR GROSS */
+  border: 1px solid #1c4d42;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-top: 20px; }
+  .button a {
+    color: white;
+    text-decoration: none; }
+
+/* Header Styles */
+header {
+  background-color: #f0f0f0;
+  margin: 0 auto; }
+  header #headerLogo {
+    width: 40%;
+    float: left;
+    margin-left: 20px; }
+    header #headerLogo a {
+      text-decoration: none; }
+
+#amcLogo {
+  width: 150px; }
+
+/* Navigation */
+header nav {
+  width: 40%;
+  float: right;
+  text-align: right;
+  margin-right: 40px; }
+header nav ul {
+  list-style-type: none; }
+header nav ul li {
+  display: inline-block; }
+header nav ul li a {
+  padding: 10px;
+  color: #1c4d42;
+  text-decoration: none;
+  font-size: 18px; }
+
+#trackMts {
+  color: white;
+  background-color: #1c4d42;
+  border: 1px solid #1c4d42;
+  border-radius: 5px;
+  margin-right: 5px; }
+  #trackMts a {
+    color: white; }
+
+/* Hero Section */
+#hero {
+  background: linear-gradient(rgba(28, 77, 66, 0.58), rgba(28, 77, 66, 0.58)), url("../images/heroMt.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  background-position: 25%; }
+  #hero .inner-wrapper {
+    max-width: 100%; }
+  #hero h2 {
+    font-weight: 300;
+    padding: 45px 45px 20px 45px; }
+  #hero h5 {
+    font-weight: 300;
+    padding: 0 0 70px 0;
+    margin: 0; }
+
+/* Learn More Section */
+#learnMore {
+  width: 100%;
+  min-height: 300px;
+  text-align: center; }
+  #learnMore .two-column-1 {
+    margin: 20px; }
+  #learnMore .two-column-2 {
+    margin: 20px;
+    float: right; }
+  #learnMore h4 {
+    color: #1c4d42;
+    font-style: italic;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #1c4d42;
+    max-width: 450px;
+    margin: 0 auto 50px; }
+  #learnMore h5 {
+    font-weight: 400;
+    margin-top: 0.3em;
+    margin-bottom: 0; }
+
+/* Form Section */
+#rotatingSection {
+  margin: 50px auto;
+  position: relative;
+  width: 85%;
+  height: 300px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(rgba(36, 65, 75, 0.58), rgba(36, 65, 75, 0.58)), url("../images/mtWash.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.slide {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  color: white; }
+
+/* About Us Section */
+#aboutUs {
+  text-align: center;
+  height: auto; }
+  #aboutUs h3 {
+    color: #42899d;
+    font-style: italic;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #42899d;
+    max-width: 450px;
+    margin: 0 auto 50px; }
+
+/* Contact Us Page */
+/* #contactUs form input,
+#contactUs form textarea {
+	width: 100%;
+}
+
+#contactUs form label {
+	display: block;
+	margin-bottom: 0.2em;
+}
+
+#contactUs form > section {
+	padding: 10px 0;
+}
+
+#contactUs h2 {
+	margin-top: 0;
+	text-align: center;
+}
+
+#contactUs form{
+	color: white;
+}
+
+.contactForm{
+	padding: 15px;
+	background-color: rgba(36,65,75,1);
+	max-width: 275px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.contactForm > section {
+	padding: 8px;
+}
+
+.contactForm h4,
+.contactForm p {
+	text-align: center;
+	margin-bottom: 0.3em;
+}
+
+.contactForm h4 {
+	margin: 0.3em 0;
+}
+
+.contactForm p {
+	margin-bottom: 25px;
+}
+ */
+/* Tracker Page */
+#tracker {
+  width: 100%; }
+  #tracker h4 {
+    margin: 5px 0 5px 0;
+    text-align: center; }
+  #tracker form {
+    color: white; }
+
+.trackerSpace {
+  padding-left: 10%; }
+
+.trackerForm {
+  padding: 15px;
+  background-color: #24414b;
+  margin: 0 auto;
+  text-align: left;
+  color: white; }
+
+.logoSize {
+  width: 150px; }
+
+textarea {
+  width: 45%;
+  vertical-align: top; }
+
+.hidden {
+  display: none; }
+
+.show {
+  display: inline; }
+
+/* Footer */
+footer {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-top: 1px solid #495b60; }
+  footer p {
+    font-family: "Courier New", Courier, monospace; }
+  footer #footerLogo {
+    max-width: 70px; }
+  footer #footerLogo > img {
+    width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
