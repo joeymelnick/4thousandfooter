@@ -1,4 +1,7 @@
 /* Layout */
+.container {
+  width: 100%; }
+
 .panel {
   min-height: 100vh; }
 

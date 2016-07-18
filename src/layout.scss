@@ -6,6 +6,10 @@ $backgroundColor: #f0f0f0;
 $black:  #333;
 
 /* Layout */
+.container{
+	width: 100%;
+}
+
 .panel {
 	min-height: 100vh;
 }
