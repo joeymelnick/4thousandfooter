@@ -24,8 +24,13 @@ body {
 
 /* Header Styles */
 header {
-  background-color: #f0f0f0;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px; }
   header #headerLogo {
     width: 40%;
     float: left;
@@ -33,8 +38,12 @@ header {
     header #headerLogo a {
       text-decoration: none; }
 
-#amcLogo {
-  width: 150px; }
+.logoSize {
+  width: 50px;
+  padding-top: 5px; }
+
+.solidBackground {
+  background-color: red; }
 
 /* Navigation */
 header nav {
@@ -51,6 +60,9 @@ header nav ul li a {
   color: #1c4d42;
   text-decoration: none;
   font-size: 18px; }
+
+.headerMain {
+  transition-duration: 2s; }
 
 #trackMts {
   color: white;
@@ -202,10 +214,6 @@ header nav ul li a {
   margin: 0 auto;
   text-align: left;
   color: white; }
-
-.logoSize {
-  width: 58px;
-  padding-top: 5px; }
 
 textarea {
   width: 45%;
