@@ -10,9 +10,7 @@ $(document).ready(function(){
           $('.headerMain').css('background-color', 'transparent');
        }
    });
-});   
-                  
-$(document).ready(function(){
+
 $("#rotatingSection > div:gt(0)").hide();
 
 setInterval(function() {

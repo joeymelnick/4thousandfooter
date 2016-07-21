@@ -269,14 +269,30 @@ transition-duration: 2s;
 
 #tracker {
 	width: 100%;
+	margin: 50px;
 	 h4 {
 		margin: 5px 0 5px 0;
 		text-align: center;
+
 		}
+	h6{
+		font-size: 18px;
+		color: $amcGreen;
+	}
 	form{
 		color: white;
 		}
 
+}
+.selector-list{
+	width: 50%;
+	float: left;
+	margin: 0;
+}
+.mountain-display{
+	width: 50%;
+	float: left;
+	margin: 0;
 }
 
 .trackerSpace{
@@ -306,19 +322,18 @@ textarea {
 /* Footer */
 
 footer {
-	max-width: 1000px;
-	width: 90%;
-	margin: 0 auto;
-	padding: 20px 0;
-	border-top: 1px solid #495b60;
+	width: 100%;
+
 	p {
 		font-family: "Courier New", Courier, monospace; ;
 	}
 	#footerLogo {
-		max-width: 70px;
-	}
-	#footerLogo > img {
+		max-width: 50px;
+		padding: 20px;
+		img {
 		width: 100%;
 	}
 }
+	}
+	
 
