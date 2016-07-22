@@ -1,37 +1,37 @@
 [
 {
-	"mountain": "Washington",
+	"mountain": "Mt. Washington",
 	"height": 6288,
 	"difficulty": "Strenuous",
 	"img": "images/Washington.jpg",
 	"descr": "Mt. Washington (6,288 feet) is the highest peak east of the Mississippi River and north of the Carolinas. The upper part of the mountain has a climate similar to that of northern Labrador and supports a variety of alpine flora and fauna."
 },
-{"mountain":"Adams","height":5774,
+{"mountain":"Mt. Adams","height":5774,
 	"difficulty": "Strenuous",
 	"img": "images/Adams.jpg",
 	"descr": "Mt. Adams (5,799') is the second highest peak in New England, offering spectacular views across the Great Gulf and King Ravine."},
 
-{"mountain":"Jefferson","height":5712,
+{"mountain":"Mt. Jefferson","height":5712,
 	"difficulty": "Strenuous",
 	"img": "images/Jefferson.jpg",
 	"descr": "Mt. Jefferson (5,716 feet) has three summits a short distance apart, in line northwest and southeast, with the highest in the middle. Perhaps the most striking view is down the Great Gulf with the Carter Range beyond."},
 
-{"mountain":"Monroe","height":5384,
+{"mountain":"Mt. Monroe","height":5384,
 	"difficulty": "Strenuous",
 	"img": "images/Monroe.jpg",
 	"descr": "Mt. Monroe (5,372 feet) is the highest of the Southern Presidentials, and is a sharply pointed peak rising abruptly from the area around the Lakes of the Clouds. The summit is completely above treeline and affords fine views of the deep chasm of Oakes Gulf."},
 
-{"mountain":"Madison","height":5367,
+{"mountain":"Mt. Madison","height":5367,
 	"difficulty": "Strenuous",
 	"img": "images/Madison.jpg",
 	"descr": "Mt. Madison (5,366 feet) is the farthest northeast of the high peaks of the Presidential Range, remarkable for the great drop of more than 4,000 feet to the river valleys east and northeast from the summit."},
 
-{"mountain":"Lafayette","height":5260,
+{"mountain":"Mt. Lafayette","height":5260,
 	"difficulty": "Strenuous",
 	"img": "images/Lafayette.jpg",
 	"descr": "Mt. Lafayette (5,260 feet) represents the highest peak in the Franconia Ridge and, from the summit, offers a stunning view of the Pemigewasset Wilderness Area."},
 
-{"mountain":"Lincoln","height":5089,
+{"mountain":"Mt. Lincoln","height":5089,
 	"difficulty": "Strenuous",
 	"img": "images/Lincoln.jpg",
 	"descr": "Mt. Lincoln (5,089 feet), a part of the popular and scenic Franconia Ridge, bears a sharp, rugged peak with excellent views of the surrounding area and an array of alpine plants."},
@@ -46,12 +46,12 @@
 	"img": "images/CDome.jpg",
 	"descr": "Carter Dome (4,832'), in the Carter-Moriah Range, offers dramatic, close-up views of Mount Washington and the Presidential Range from its northeastern shoulder, Mount Hight."},
 
-{"mountain":"Moosilauke","height":4802,
+{"mountain":"Mt. Moosilauke","height":4802,
 	"difficulty": "Moderate",
 	"img": "images/Moosilauke.jpg",
 	"descr": "Mount Moosilauke, at 4,802 feet, is the western-most 4,000-footer in NH. The alpine summit, on a clear day, affords hikers stunning views, to the east, of the Franconia Ridge and Presidentials, and to the west, the Green Mountains of Vermont and, in the distance, the Adirondacks in New York State."},
 
-{"mountain":"Eisenhower","height":4780,
+{"mountain":"Mt. Eisenhower","height":4780,
 	"difficulty": "Moderate",
 	"img": "images/Eisenhower.jpg",
 	"descr": "Mount Eisenhower (4,760 ft.), part of the southern Presidential Range, has a bald summit that offers 360-degree views of the surrounding area."},
@@ -61,7 +61,7 @@
 	"img": "images/NTwin.jpg",
 	"descr": "North Twin Mountain (4,761 feet), adjacent to the taller South Twin Mountain, offers a challenging climb to superb outlook ledges near its summit."},
 
-{"mountain":"Carrigain","height":4700,
+{"mountain":"Mt. Carrigain","height":4700,
 	"difficulty": "Strenuous",
 	"img": "images/Carrigain.jpg",
 	"descr": "Mount Carrigain, at 4,700 feet, is one of the highest peaks along the southeastern ridge bordering the Pemigewasset Wilderness Area. An observation tower on Carrigain's summit provides hikers with a stunning view of the surrounding White Mountains."},
@@ -81,12 +81,12 @@
 	"img": "images/WBond.jpg",
 	"descr": "West Bond (4,540 ft.), a spur of Mount Bond in the southern Twin range, offers extensive views of the White Mountains with virtually no sign of human interference in the form of buildings or roads from the summit."},
 
-{"mountain":"Garfield","height":4500,
+{"mountain":"Mt. Garfield","height":4500,
 	"difficulty": "Moderate to Strenuous",
 	"img": "images/Garfield.jpg",
 	"descr": "A trip to Mt. Garfield's rocky summit (4,500 ft.) rewards hikers with a panoramic view of the surrounding Franconia Ridge and Franconia and Lincoln Brooks valleys."},
 
-{"mountain":"Liberty","height":4459,
+{"mountain":"Mt. Liberty","height":4459,
 	"difficulty": "Strenuous",
 	"img": "images/Liberty.jpg",
 	"descr": "Amidst the scenic Franconia Ridge, Mt. Liberty (4,459 feet) bears a sharp, ledgy peak with excellent views of the surrounding area, including nearby Mount Bond and the Pemigewasset Wilderness."},
@@ -101,7 +101,7 @@
 	"img": "images/Wildcat.jpg",
 	"descr": "Wildcat Mountain (4,422'), located in the Carter-Moriah Range, offers dramatic, close-up views of Carter Notch and Carter Dome from its summit. Wildcat's D Peak (4,062'), home to Wildcat Ski Area, is considered an independent 4,000-footer and offers excellent views of Mt. Washington and the Presidential Range from an observation tower."},
 
-{"mountain":"Hancock","height":4420,
+{"mountain":"Mt. Hancock","height":4420,
 	"difficulty": "Strenuous",
 	"img": "images/Hancock.jpg",
 	"descr": "Located at the southern border of the Pemigewasset Wilderness, Mt. Hancock is characterized by a long ridge with several peaks, most importantly the North Peak (4,420') and the South Peak (4,319'), also known as South Hancock. Although both peaks are wooded to the top, lookout ledges near the North Peak offer views of Mt. Osceola and the Sandwich Range to the south."},
@@ -111,17 +111,17 @@
 	"img": "images/SKinsman.jpg",
 	"descr": "South Kinsman (4358') is the highest point on the Kinsman-Cannon Ridge."},
 
-{"mountain":"Field","height":4340,
+{"mountain":"Mt. Field","height":4340,
 	"difficulty": "Moderate",
 	"img": "images/Field.jpg",
 	"descr": "Mt. Field (4,340') is the highest peak within the Willey Range, which rises from the western boundary of Crawford Notch State Park."},
 
-{"mountain":"Osceola","height":4340,
+{"mountain":"Mt. Osceola","height":4340,
 	"difficulty": "Moderate to Strenuous",
 	"img": "images/Osceola.jpg",
 	"descr": "Mt. Osceola (4,340') is the highest peak in the Waterville Valley Region and offers great views of the Pemigewasset Wilderness to the north. East Osceola (4,156') is the subordinate peak to Mt. Osceola. Immediately to the south of Mt. Osceola is Mt. Tecumseh (4,003'), the shortest official 4,000 footer. East, across the valley, is the Tripyramid Massif, which includes North Tripyramid (4,180') and Middle Tripyramid (4,140')."},
 
-{"mountain":"Flume","height":4328,
+{"mountain":"Mt. Flume","height":4328,
 	"difficulty": "Strenuous",
 	"img": "images/Flume.jpg",
 	"descr": "Mt. Flume (4,328'), a part of the popular and scenic Franconia Ridge, bears a sharp, rugged peak with excellent views of the surrounding area and an array of alpine plants."},
@@ -131,7 +131,7 @@
 	"img": "images/SHancock.jpg",
 	"descr": "Located at the southern border of the Pemigewasset Wilderness, Mt. Hancock is characterized by a long ridge with several peaks, most importantly the North Peak (4,420') and the South Peak (4,319'), also known as South Hancock. Although both peaks are wooded to the top, lookout ledges near the North Peak offer views of Mt. Osceola and the Sandwich Range to the south."},
 
-{"mountain":"Pierce","height":4310,
+{"mountain":"Mt. Pierce","height":4310,
 	"difficulty": "Moderate",
 	"img": "images/Pierce.jpg",
 	"descr": "Mount Pierce (4,312 ft.), part of the southern Presidential Range, has a flat summit with a broad, open area on the east side that offers striking views of the surrounding area."},
@@ -141,7 +141,7 @@
 	"img": "images/NKinsman.jpg",
 	"descr": "North Kinsman (4,293') is the second highest peak on the Kinsman-Cannon Ridge. Ledges just below the wooded summit offer great views of Mt. Lafayette and Mt. Lincoln across Franconia Notch."},
 
-{"mountain":"Willey","height":4285,
+{"mountain":"Mt. Willey","height":4285,
 	"difficulty": "Strenuous",
 	"img": "images/Willey.jpg",
 	"descr": "Mt. Willey (4,285’) is the second of highest and southernmost mountain of the Willey Range, which also includes Mt. Field (4,340’) and Mt. Tom (4,051’)."},
@@ -151,7 +151,7 @@
 	"img": "images/Bondcliff.jpg",
 	"descr": "Bondcliff (4,265 ft.), along with neighboring Mt. Guyot and Mt. Bond, offers some of the most stunning views in the Whites, with virtually no sign of roads or buildings visible from the summit."},
 
-{"mountain":"Zealand","height":4260,
+{"mountain":"Mt. Zealand","height":4260,
 	"difficulty": "Strenuous",
 	"img": "images/Zealand.jpg",
 	"descr": "The summit of Zealand Mountain (4,260 feet) is wooded and viewless, but the trip is nonetheless worthwhile when hikers include a stop at the nearby Zeacliff outlook along the way."},
@@ -161,7 +161,7 @@
 	"img": "images/Tripyramids.jpg",
 	"descr": "The Tripyramid massif includes three peaks: North Tripyramid (4,180'), Middle Tripyramid (4,140'), and South Tripyramid (4,100'). The latter peak is not considered an official 4,000 footer because there is not a sufficient change in altitude between its neighboring peak."},
 
-{"mountain":"Cabot","height":4170,
+{"mountain":"Mt. Cabot","height":4170,
 	"difficulty": "Moderate to Strenuous",
 	"img": "images/Cabot.jpg",
 	"descr": "Mount Cabot (4,170 ft.) is the highest peak in New Hampshire's North Country, offering interesting views from the site of a former fire tower, just southeast of the summit."},
@@ -176,22 +176,22 @@
 	"img": "images/Tripyramids.jpg",
 	"descr": "The Tripyramid massif includes three peaks: North Tripyramid (4,180'), Middle Tripyramid (4,140'), and South Tripyramid (4,100'). The latter peak is not considered an official 4,000 footer because there is not a sufficient change in altitude between its neighboring peak."},
 
-{"mountain":"Cannon","height":4100,
+{"mountain":"Cannon Mountain","height":4100,
 	"difficulty": "Moderate",
 	"img": "images/Cannon.jpg",
 	"descr": "Cannon Mountain (4,100') is also known as Profile Mountain, referring to the magnificent profile of the Old Man of the Mountain, an infamous formation of three ledges on the east cliff that collapsed in May 2003."},
 
-{"mountain":"Hale","height":4054,
+{"mountain":"Mt. Hale","height":4054,
 	"difficulty": "Moderate",
 	"img": "images/Hale.jpg",
 	"descr": "Mount Hale (4,054’), one of the “Little River Mountains” offers hikers an easy hike."},
 
-{"mountain":"Jackson","height":4052,
+{"mountain":"Mt. Jackson","height":4052,
 	"difficulty": "Moderate",
 	"img": "images/Jackson.jpg",
 	"descr": "Mount Jackson (4,052 ft.), part of the southern Presidential Range, has a square, ledgy summit that offers stunning views of the surrounding Presidentials."},
 
-{"mountain":"Tom","height":4051,
+{"mountain":"Mt. Tom","height":4051,
 	"difficulty": "Moderate",
 	"img": "images/Tom.jpg",
 	"descr": "Mt. Tom (4,051’) is the northern most peak of the Willey Range, which rises from the western boundary of Crawford Notch State Park."},
@@ -201,14 +201,14 @@
 	"img": "images/WildcatD.jpg",
 	"descr": "Wildcat Mountain (4,422'), located in the Carter-Moriah Range, offers dramatic, close-up views of Carter Notch and Carter Dome from its summit. Wildcat's D Peak (4,062'), home to Wildcat Ski Area, is considered an independent 4,000-footer and offers excellent views of Mt. Washington and the Presidential Range from an observation tower"},
 
-{"mountain":"Moriah","height":4049,
+{"mountain":"Mt. Moriah","height":4049,
 	"difficulty": "Moderate",
 	"img": "images/Moriah.jpg",
 	"descr": "A part of the Carter-Moriah Range, Mount Moriah (4,049 ft.), boasts a ledgy summit with views of the surrounding area."},
 
-{"mountain":"Passaconoway","height":4043,
+{"mountain":"Mt. Passaconaway","height":4043,
 	"difficulty": "Strenuous",
-	"img": "images/Passaconoway.jpg",
+	"img": "images/Passaconaway.jpg",
 	"descr": "Mt. Passaconaway (4,043'), the easternmost 4,000 footer of the Sandwich Range Wilderness, shares a prominent ridge with Mt. Whiteface (4,020'). A lookout ledge just below Mt. Passaconaway's wooded summit offers great views of the Tripyramid massif to the west and South Hancock (4,319') and Mt. Carrigain (4,700') to the north."},
 
 {"mountain":"Owl's Head","height":4025,
@@ -216,27 +216,27 @@
 	"img": "images/OwlsHead.jpg",
 	"descr": "Owl’s Head Mountain (4,025 feet), occupies a narrow valley created by the Twin-Bond Range to the east and the Franconia Range to the west. More than ten 4,000s surround Owl’s Head. Needless to say, it is one of the more remote major summits in the White Mountains."},
 
-{"mountain":"Galehead","height":4024,
+{"mountain":"Mt. Galehead","height":4024,
 	"difficulty": "Strenuous",
 	"img": "images/Galehead.jpg",
 	"descr": "Galehead Mountain (4,024 feet), a part of the Twin Range, offers views of nearby North and South Twin from the Frost Trail."},
 
-{"mountain":"Whiteface","height":4020,
+{"mountain":"Mt. Whiteface","height":4020,
 	"difficulty": "Strenuous",
 	"img": "images/Whiteface.jpg",
 	"descr": "Mt. Whiteface (4020') shares a prominent ridge with Mt. Passaconaway (4,043') the easternmost 4,000 footer of the Sandwich Range Wilderness. Lookout ledges south of Mt. Whiteface's wooded summit offer great views of New Hampshire's Lakes Region."},
 
-{"mountain":"Waumbek","height":4006,
+{"mountain":"Mt. Waumbek","height":4006,
 	"difficulty": "Moderate",
 	"img": "images/Waumbek.jpg",
 	"descr": "Mt. Waumbek (4,006 ft.), is the highest peak in the Pliny Range of New Hampshire’s North Country, offering views to the east just beyond the summit, along the Kilkenny Ridge Trail."},
 
-{"mountain":"Isolation","height":4004,
+{"mountain":"Mt. Isolation","height":4004,
 	"difficulty": "Strenuous",
 	"img": "images/Isolation.jpg",
 	"descr": "Mount Isolation (4,003 ft.) is the highest peak of the Montalban Ridge, a subsidiary of the Presidentials, and offers stunning views of the Presidentials - one of the finest views in the White Mountains."},
 
-{"mountain":"Tecumseh","height":4003,
+{"mountain":"Mt. Tecumseh","height":4003,
 	"difficulty": "Moderate",
 	"img": "images/Tecumseh.jpg",
 	"descr": "Mt. Tecumseh (4,003') is the shortest official 4,000 footer and home to Waterville Valley ski area. Views to the immediate north include Mt. Osceola (4,340'), the highest peak in the region. East, across the valley, is the Tripyramid Massif, which includes North Tripyramid (4,180') and Middle Tripyramid (4,140')."}

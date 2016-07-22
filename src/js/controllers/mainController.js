@@ -3,7 +3,7 @@ var mountainArray = [];
     // Takes two seperate arrays of mountain names and heights
     // and turns it into an object.
    $http({
-    url: 'https://api.myjson.com/bins/3k581',
+    url: 'https://api.myjson.com/bins/16nah',
     method: 'GET'
 }).then(function successCallback(response) {
 mountainArray = response.data;

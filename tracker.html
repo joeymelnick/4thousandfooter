@@ -2,59 +2,75 @@
 <head>
 	<title>Track the whites!</title>
 	<link rel="stylesheet" type="text/css" href="dist/style.css">
-	
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-     <script src="angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="angular.min.js"></script>
 	<meta name='author' content='Joey Melnick'>
 </head>
-<body ng-app="myApp">
-<header class='headerMain'>
-  		<section id="headerLogo">
-  			<a href="index.html"><img src='images/logo.png' alt='logo' class='logoSize'></a>
-  		</section>
-  		<nav>
-        <ul>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact</a>
-          </li>
-          <li id="trackMts">
-            <a href="tracker.html">Track</a>
-          </li>
-        </ul>
-  		</nav>
-  	</header>
-  	<div id="tracker" class="panel" ng-controller='mainController'>
-  		<h4> Click a Mountain to Start Tracking</h4>
 
-     <!--  Mountain selector list coding here -->
-      <div class='selector-list'>   
+<!-- Initialize Angular for this page -->
+<body ng-app="myApp">
+  
+  <!-- Header code here -->
+  <!-- **** Fix this header so it stays at the top **** -->
+  <header class='headerMain'>
+  	<section id="headerLogo">
+      <a href="index.html"><img src='images/logo.png' alt='logo' class='logoSize'></a>
+  	</section>
+  	<nav>
+      <ul>
+        <li>
+          <a href="about.html">About</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <li id="trackMts">
+          <a href="tracker.html">Track</a>
+        </li>
+      </ul>
+  	</nav>
+  </header>
+  <div class='title'>
+    <h4> 4,000 Foooter Tracker</h4>
+  </div>
+
+    <!-- Calls the mainController for this section -->
+	<div id="tracker" class="panel" ng-controller='mainController'>
+   
+   <!--  Mountain selector list coding here -->
+    <div class='selector-list'>   
+      <form class="form-inline">
         
-        <form class="form-inline">
-          <a href="#" ng-click="sortType ='mountain'"><button class='sort-button'> Sort by Name</button></a>
+        <!-- Sort buttons coding  -->
+        <!-- **** figure out how to allow for reverse **** -->
+        <a href="#" ng-click="sortType ='mountain'"><button class='sort-button'> Sort by Name </button></a>
         <a href="#" ng-click="sortType ='height'"><button class='sort-button'>Sort by Height </button></a>
-          <input ng-model="query" type="text" placeholder="Filter by" autofocus>
-        </form>
-        <div>
-          <div class='mountain' ng-repeat='mountain in mountains | filter:query | orderBy:sortType'>
-            <h6 ng-cloak id=' {{ mountain.mountain }}' ng-click='setMountain(mountain.mountain)'> <button class='mt-button'>{{ mountain.mountain }} <br /> {{ mountain.height }} Feet</button></h6>
-          </div>
+        
+        <!-- Filter bar coding -->
+        <input ng-model="query" type="text" placeholder="Filter by" autofocus>
+      </form>
+      <div>
+        <div class='mountain' ng-repeat='mountain in mountains | filter:query | orderBy:sortType'>
+          <h6 ng-cloak id=' {{ mountain.mountain }}' ng-click='setMountain(mountain.mountain)'> <button class='mt-button'>{{ mountain.mountain }} <br /> {{ mountain.height }} Feet</button></h6>
         </div>
       </div>
+    </div>
 
-      <!-- Mountain Display section starts here -->
-      <div ng-cloak class='mountain-display' ng-repeat="mountain in mountains">
-        <div ng-show='thisMountain(mountain.mountain)'> <span>{{mountain.mountain}}</span> <br />
-            <img ng-src="{{ mountain.img }}" alt="Description" ng-show='thisMountain(mountain.mountain)'/> <br /> 
-         <span> {{ mountain.height }} Feet</span> <br /> 
-          Difficulty: {{ mountain.difficulty }} </div>
-      
+    <!-- Mountain Display section starts here -->
+    <!-- **** Make a starting panel so its not all blank **** -->
+    <div class='mountain-display'>  
+      <div ng-cloak ng-repeat="mountain in mountains">
+        <div ng-show='thisMountain(mountain.mountain)'> 
+          <span class='mt-title'>{{mountain.mountain}}</span> <br />
+          <img class='mt-img'ng-src="{{ mountain.img }}" alt="Description" ng-show='thisMountain(mountain.mountain)'/> <br /> 
+          <span class='mt-height'> {{ mountain.height }} Feet</span> <br /> 
+          <span class='mt-difficulty'>Difficulty: {{ mountain.difficulty }}</span> <br /><br />
+          <p>  {{ mountain.descr }} </p>
+        </div>
       </div>
-  	
-
-
+    </div>
+  </div>
+   
 <script src="dist/main.js"></script>
 <script src="dist/app.js"></script>
  <script src="dist/mainController.js"></script>       

@@ -37,20 +37,20 @@ body{
 
 header {
 	margin: 0 auto;
-  	position: fixed;
-  	top: 0;
-  	left: 0;
-  	z-index: 9999;
   	width: 100%;
  	height: 50px;
-		
-		#headerLogo {
+			position: fixed;
+		top: 0;
+  		left: 0;
+  		z-index: 9999;
+	#headerLogo {
 		width: 40%;
 		float: left;
 		margin-left: 20px;
-			a {
+		a {
 			text-decoration: none;
 		}
+	
 	}
 }
 .logoSize{
@@ -268,9 +268,16 @@ transition-duration: 2s;
  */
 /* Tracker Page */
 
+.title{
+	text-align: center;
+	padding-top: 30px;
+	h4{
+		margin: 0;
+	}
+}
+
 #tracker {
 	width: 100%;
-	margin: 50px;
 	 h4 {
 		margin: 5px 0 5px 0;
 		text-align: center;
@@ -288,7 +295,7 @@ transition-duration: 2s;
 	float: left;
 	margin: 0;
 	.mt-button{
-		min-width: 120px;
+		min-width: 130px;
 		min-height: 50px;
 		background-color: $amcGreen;
 		border: none;
@@ -299,6 +306,7 @@ transition-duration: 2s;
 		text-align: center;
 		padding: 20px 0 0 0;
 	}
+
 }
 
 .mountain{
@@ -314,10 +322,28 @@ transition-duration: 2s;
 }
 
 .mountain-display{
-	width: 60%;
+	width: 55%;
+	margin-left: 5%;
 	float: left;
-	margin: 0;
 	text-align: center;
+	.mt-title{
+		font-size: 40px;
+		color: $amcGreen;
+		padding-top: 57px;
+	}
+
+	.mt-img{
+	width: 60%;
+	}
+	.mt-height{
+		font-size: 25px;
+	}
+	.mt-difficulty{
+		font-size: 25px;
+	}
+	p{
+		text-align: left;
+	}
 }
 
 .trackerSpace{
