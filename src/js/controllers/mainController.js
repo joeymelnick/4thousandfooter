@@ -1,48 +1,41 @@
-app.controller('mainController', ['$scope', function($scope) {
+app.controller('mainController', ['$scope', '$http', function($scope, $http) {
+var mountainArray = [];
+    // Takes two seperate arrays of mountain names and heights
+    // and turns it into an object.
+   $http({
+    url: 'https://api.myjson.com/bins/3k581',
+    method: 'GET'
+}).then(function successCallback(response) {
+mountainArray = response.data;
 
-	  $scope.title = 'Books for Days';
-	// Takes two seperate arrays of mountain names and heights
-	// and turns it into an object.
-var mountains = [ 'Washington', 'Adams', 'Jefferson', 
-                 'Monroe', 'Madison', 'Lafayette', 'Lincoln', 
-                 'South Twin', 'Carter Dome', 'Moosilauke', 'Eisenhower', 
-                 'North Twin', 'Carrigain', 'Bond', 'Middle Carter', 'West Bond', 
-                 'Garfield', 'Liberty', 'South Carter', 'Wildcat', 'Hancock', 
-                 'South Kinsma', 'Fiel', 'Osceol', 'Flume', 'South Hancock', 
-                 'Pierce', 'North Kinsman', 'Wille', 'Bondclif', 'Zealand', 
-                 'North Tripyramid', 'Cabo', 'East Osceola', 'Middle Tripyramid', 
-                 'Cannon', 'Hale', 'Jackson', 'To', 'Wildcat, D Peak', 'Moria', 
-                 'Passaconawa', "Owl's Head" , 'Galehead', 'Whiteface', 'Waumbe', 
-                 'Isolation', 'Tecumse'];
-var heights = [6288, 5774, 5712, 5384, 5367, 
-                 5260, 5089, 4902, 4832, 4802, 4780, 4761, 
-                 4700, 4698, 4610, 4540, 4500, 4459, 4430, 4422, 
-                 4420, 4358, 4340, 4340, 4328, 4319, 4310, 4293, 4285, 4265, 4260,
-                 4180, 4170, 4156, 4140, 4100, 4054, 4052, 4051, 4050, 4049, 4043,
-                 4025, 4024, 4020, 4006, 4004, 4003];
-var currentMt;
-var currentHeight;
-var mountainArray= [];
-for(i=0; i < mountains.length; i++){
 
-currentMt = mountains[i];
-currentHeight = heights[i];
+ 
 
-var mountainObj = {mountain: mountains[i], height: heights[i]};
-mountainArray.push(mountainObj);
-}
+  
+   /*$.ajax({
+  // you can link to a JSON file here, or an api link
+  url: "https://api.myjson.com/bins/3hcwx",
+  method: "GET",
+  dataType: "json"
+}).done(function(data) { //when done (with data as an argument) do this:
+ console.log(mountainArray);
 
+ */
 //sets up mountains for ng-repeat
-	$scope.sortType = 'mountain';
-	$scope.activeMountain = '';
+
+    console.log(mountainArray);
+    $scope.sortType = 'mountain';
+    $scope.activeMountain = '';
         $scope.setMountain = function(x){
               $scope.activeMountain = x;
       
         };            
-	$scope.mountains = mountainArray;
+    $scope.mountains = mountainArray;
+
     $scope.thisMountain= function(obj){
                 return $scope.activeMountain === obj;
         };
-	}]);
+});
+    }]);
 
 

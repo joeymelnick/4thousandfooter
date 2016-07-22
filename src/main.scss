@@ -276,48 +276,29 @@ transition-duration: 2s;
 		text-align: center;
 
 		}
-
-	
+	h6{
+		font-size: 18px;
+		color: $amcGreen;
+	}
 	form{
 		color: white;
 		}
-}
 
+}
 .selector-list{
-	width: 40%;
+	width: 50%;
 	float: left;
 	margin: 0;
-	.mt-button{
-		min-width: 120px;
-		min-height: 50px;
-		background-color: $amcGreen;
-		border: none;
-		border-radius: 5px;
-		cursor: pointer;
-	}
-	.form-inline{ 
-		text-align: center;
-		padding: 20px 0 0 0;
-	}
 }
 
 .mountain{
 	display: inline-block;
-	width: 33%;
-	padding: 10px 0;
-	min-height: 30px;
-	text-align: center;
-	h6{
-		font-size: 16px;
-		color: $amcGreen;
-	}
 }
 
 .mountain-display{
-	width: 60%;
+	width: 50%;
 	float: left;
 	margin: 0;
-	text-align: center;
 }
 
 .trackerSpace{
