@@ -248,4 +248,12 @@ footer {
     footer #footerLogo img {
       width: 100%; }
 
+.note-tracker {
+  text-align: left;
+  height: 200px;
+  width: 90%; }
+
+label {
+  color: black; }
+
 /*# sourceMappingURL=main.css.map */
