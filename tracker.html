@@ -45,15 +45,15 @@
         
         <!-- Sort buttons coding  -->
         <!-- **** figure out how to allow for reverse **** -->
-        <a href="#" ng-click="sortType ='mountain'"><button class='sort-button'> Sort by Name </button></a>
-        <a href="#" ng-click="sortType ='height'"><button class='sort-button'>Sort by Height </button></a>
+        <a href="#" ng-click="sortBy('identifier')"><button class='sort-button'> Sort by Name </button></a>
+        <a href="#" ng-click="sortBy('height')"><button class='sort-button'>Sort by Height </button></a>
         
         <!-- Filter bar coding -->
         <input ng-model="query" type="text" placeholder="Filter by" autofocus>
       </form>
           <!-- Mountain Display section starts here -->
       <div>
-        <div class='mountain' ng-repeat='mountain in mountains | filter:query | orderBy:sortType'>
+        <div class='mountain' ng-repeat="mountain in mountains | filter:{'mountain': query} | orderBy:sortType:reverse">
           <h6 ng-cloak id=' {{ mountain.mountain }}' ng-click='setMountain(mountain.mountain)'> <button class='mt-button'>{{ mountain.mountain }} <span class='height'><br /> {{ mountain.height }} Feet</span></button></h6>
         </div>
       </div>

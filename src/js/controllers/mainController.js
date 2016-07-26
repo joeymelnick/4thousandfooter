@@ -3,28 +3,23 @@ var mountainArray = [];
     // Takes two seperate arrays of mountain names and heights
     // and turns it into an object.
    $http({
-    url: 'https://api.myjson.com/bins/16nah',
+    url: 'https://api.myjson.com/bins/3c4yj',
     method: 'GET'
 }).then(function successCallback(response) {
 mountainArray = response.data;
 
-
- 
-
   
-   /*$.ajax({
-  // you can link to a JSON file here, or an api link
-  url: "https://api.myjson.com/bins/3hcwx",
-  method: "GET",
-  dataType: "json"
-}).done(function(data) { //when done (with data as an argument) do this:
- console.log(mountainArray);
-
- */
 //sets up mountains for ng-repeat
 
     console.log(mountainArray);
-    $scope.sortType = 'mountain';
+    $scope.sortType = 'identifier';
+    $scope.reverse = false
+    $scope.sortBy = function(sortType){
+      $scope.reverse = ($scope.sortType === sortType) ? !$scope.reverse : false;
+      console.log($scope.sortType)
+      $scope.sortType = sortType
+      console.log(sortType);
+    }
     $scope.activeMountain = '';
         $scope.setMountain = function(x){
               $scope.activeMountain = x;
