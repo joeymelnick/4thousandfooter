@@ -1,0 +1,321 @@
+/* Layout */
+.container {
+  width: 100%; }
+
+.panel {
+  min-height: 100vh; }
+
+.inner-wrapper {
+  max-width: 500px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 65px 0; }
+
+.tracker-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 55px 0; }
+
+.three-even-columns,
+.two-even-columns {
+  width: 100%;
+  content: '';
+  clear: both;
+  display: table; }
+
+.three-column-1,
+.three-column-2,
+.three-column-3 {
+  width: 33%;
+  float: left;
+  padding: 40px 0;
+  border-bottom: 1px solid #dadedf;
+  border-top: 1px solid #dadedf; }
+
+.three-column-1,
+.three-column-2 {
+  border-right: 1px solid #dadedf; }
+
+.two-column-1,
+.two-column-2 {
+  width: 50%;
+  float: left; }
+
+.noBorderTop {
+  border-top: none; }
+
+/* Text Styles */
+h1 {
+  font-size: 5em; }
+
+h2 {
+  font-size: 4em; }
+
+h3 {
+  font-size: 3em; }
+
+h4 {
+  font-size: 2.5em; }
+
+h5 {
+  font-size: 2em; }
+
+h6 {
+  font-size: 1.5em;
+  padding: 0;
+  margin: 0; }
+
+p {
+  font-size: 1.25em; }
+
+body {
+  background-color: #f0f0f0;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0; }
+
+/* Buttons */
+.button {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.5em;
+  padding: 10px;
+  background-color: #1c4d42;
+  /* CHANGE THIS COLOR GROSS */
+  border: 1px solid #1c4d42;
+  border-radius: 10px;
+  margin-right: 5px;
+  margin-top: 20px;
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease; }
+  .button:hover {
+    background-color: rgba(28, 77, 66, 0.5);
+    color: black;
+    -webkit-transition: all 1s ease;
+            transition: all 1s ease; }
+
+.mt-button {
+  min-width: 130px;
+  min-height: 50px;
+  background-color: rgba(28, 77, 66, 0.1);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; }
+  .mt-button:hover {
+    background-color: rgba(28, 77, 66, 0.5);
+    color: black;
+    -webkit-transition: all 1s ease;
+            transition: all 1s ease; }
+
+/* Header Styles */
+header {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999; }
+  header #headerLogo {
+    width: 40%;
+    float: left;
+    margin-left: 20px; }
+    header #headerLogo a {
+      text-decoration: none; }
+  header nav {
+    width: 40%;
+    float: right;
+    text-align: right;
+    margin-right: 40px; }
+
+.logoSize {
+  width: 50px;
+  padding-top: 5px; }
+
+/* Navigation */
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  line-height: 25px;
+  padding-top: 13px; }
+header nav ul li {
+  display: inline-block; }
+header nav ul li a {
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px; }
+
+.headerMain {
+  -webkit-transition-duration: 2s;
+          transition-duration: 2s; }
+
+#trackMts {
+  background-color: #1c4d42;
+  border: 1px solid #1c4d42;
+  border-radius: 5px;
+  margin: 0 5px 0 0;
+  padding: 0; }
+  #trackMts a {
+    color: white; }
+
+/* Hero Section */
+#hero {
+  background: -webkit-linear-gradient(rgba(28, 77, 66, 0.58), rgba(28, 77, 66, 0.58)), url("../images/heroMt.jpg");
+  background: linear-gradient(rgba(28, 77, 66, 0.58), rgba(28, 77, 66, 0.58)), url("../images/heroMt.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  background-position: 25%; }
+  #hero .inner-wrapper {
+    max-width: 100%; }
+  #hero h2 {
+    font-weight: 300;
+    padding: 45px 45px 20px 45px; }
+  #hero h5 {
+    font-weight: 300;
+    padding: 0 0 70px 0;
+    margin: 0; }
+
+/* Learn More Section */
+#learnMore {
+  width: 100%;
+  min-height: 300px;
+  text-align: center;
+  margin-bottom: 20px; }
+  #learnMore .two-column-1 {
+    margin: 20px;
+    padding: 65px 0 65px 50px; }
+  #learnMore .two-column-2 {
+    margin: 20px;
+    float: right;
+    padding: 65px 50px 65px 0; }
+  #learnMore h4 {
+    color: #1c4d42;
+    font-style: italic;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #1c4d42;
+    max-width: 450px;
+    margin: 0 auto 50px; }
+  #learnMore h5 {
+    font-weight: 400;
+    margin-top: 0.3em;
+    margin-bottom: 0; }
+
+/* Form Section */
+#rotatingSection {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  color: white;
+  background: -webkit-linear-gradient(rgba(36, 65, 75, 0.58), rgba(36, 65, 75, 0.58)), url("../images/mtWash.jpg");
+  background: linear-gradient(rgba(36, 65, 75, 0.58), rgba(36, 65, 75, 0.58)), url("../images/mtWash.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.slide {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  color: white; }
+
+/* About Us Section */
+#aboutUs {
+  text-align: center;
+  height: auto; }
+  #aboutUs h3 {
+    color: #42899d;
+    font-style: italic;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #42899d;
+    max-width: 450px;
+    margin: 0 auto 50px; }
+
+/* Tracker Page */
+.title {
+  text-align: center;
+  padding-top: 30px; }
+  .title h4 {
+    margin: 0; }
+
+#tracker {
+  width: 100%; }
+  #tracker h4 {
+    margin: 5px 0 5px 0;
+    text-align: center; }
+  #tracker form {
+    color: white; }
+
+.selector-list {
+  width: 40%;
+  float: left;
+  margin: 0; }
+  .selector-list .form-inline {
+    text-align: center;
+    padding: 20px 0 0 0; }
+
+.mountain {
+  display: inline-block;
+  width: 33%;
+  padding: 10px 0;
+  min-height: 30px;
+  text-align: center; }
+  .mountain h6 {
+    font-size: 16px;
+    color: #1c4d42; }
+
+.mountain-display {
+  width: 55%;
+  margin-left: 5%;
+  float: left;
+  text-align: center; }
+  .mountain-display .mt-title {
+    font-size: 40px;
+    color: #1c4d42;
+    padding-top: 57px; }
+  .mountain-display .mt-img {
+    width: 60%; }
+  .mountain-display .mt-height {
+    font-size: 25px; }
+  .mountain-display .mt-difficulty {
+    font-size: 25px; }
+  .mountain-display p {
+    text-align: left; }
+
+.trackerSpace {
+  padding-left: 10%; }
+
+.trackerForm {
+  padding: 15px;
+  background-color: #24414b;
+  margin: 0 auto;
+  text-align: left;
+  color: white; }
+
+textarea {
+  width: 45%;
+  vertical-align: top; }
+
+.hidden {
+  display: none; }
+
+.show {
+  display: inline; }
+
+/* Footer */
+footer {
+  width: 100%; }
+  footer p {
+    font-family: "Courier New", Courier, monospace; }
+  footer #footerLogo {
+    max-width: 50px;
+    padding: 20px; }
+    footer #footerLogo img {
+      width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
