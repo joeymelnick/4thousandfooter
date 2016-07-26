@@ -59,7 +59,6 @@ header {
 	z-index: 9999;
 
 	#headerLogo {
-		width: 40%;
 		float: left;
 		margin-left: 20px;
 		a {
@@ -67,7 +66,6 @@ header {
 		}	
 	}
 	nav {
-	width: 40%;
 	float: right;
 	text-align: right;
 	margin-right: 40px;
@@ -83,8 +81,6 @@ header {
 	width: 50px;
 	padding-top: 5px;
 }
-
-/* Navigation */
 
 header{
 	
@@ -124,6 +120,50 @@ transition-duration: 2s;
 	}	
 }
 
+
+@media (max-width: 770px) {
+header{
+		.logoSize{
+			width: 50px;
+			padding-top: 5px;
+		}
+	
+
+		nav ul li {
+			padding: 10px;
+		}
+
+		nav ul li a {
+			padding: 10px;
+			font-size: 26px;
+		}
+	}
+}
+
+@media (max-width: 420px) {
+header{
+	nav{
+		margin-right: 10px;
+	}
+		.logoSize{
+			width: 40px;
+			padding-top: 10px;
+		}
+		nav ul {
+			line-height: 25px;
+		}	
+
+		nav ul li {
+			padding: 3px 10px;
+		}
+
+		nav ul li a {
+			padding: 3px;
+			font-size: 16px;
+		}
+	}
+}
+
 /* Hero Section */
 
 #hero {
@@ -154,6 +194,39 @@ transition-duration: 2s;
 	}
 }
 
+@media (max-width: 770px) and (min-width: 420px) {
+	#hero {
+		h2 {
+			font-size: 50px;
+
+		}
+
+		h5 {
+			font-size: 26px;
+		}
+	}
+}
+
+@media (max-width: 420px) {
+	.inner-wrapper{
+		margin: 0;
+		width: 100%;
+	}
+
+
+	#hero {
+		h2 {
+			font-size: 32px;
+			width: 100%;
+			padding: 45px 0;
+
+		}
+
+		h5 {
+			font-size: 22px;
+		}
+	}
+}
 /* Learn More Section */
 
 #learnMore {
@@ -182,7 +255,23 @@ transition-duration: 2s;
 
 }
 
+@media (max-width: 770px) {
+	#learnMore {
+		min-height: 250px;
 
+		h4 {
+			font-size: 25px;
+			max-width: 250px;
+		}
+	}
+
+}
+
+@media (max-width: 420px) {
+	.column-2{
+		display: none;
+	}
+	}
 
 /* Rotating Section */
 #rotatingSection {
@@ -212,7 +301,15 @@ transition-duration: 2s;
     color: white;
 }
 
+@media (max-width: 420px) {
+	#rotatingSection{
+		min-height: 350px;
+	}
 
+	.slide{
+		font-size: 14px;
+	}
+}
 
 
 /* About Us Section */
@@ -326,6 +423,31 @@ textarea {
 .show {
 	display: inline;
 }
+@media (max-width: 770px) {
+	.height{
+		display: none;
+	}
+
+	.mt-button{
+		min-height: 25px;
+	}
+	.mountain{
+	width: 50%;
+	min-height: 30px;
+	}
+}
+
+@media (max-width: 420px) {
+	.mt-descr{
+		display: none;
+	}
+	.mountain{
+	width: 100%;
+	min-height: 30px;
+	padding: 0;
+	}
+
+	}
 /* Footer */
 
 footer {

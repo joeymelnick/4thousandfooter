@@ -1,5 +1,7 @@
 <html>
 <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
 	<title>Track the whites!</title>
 	<link rel="stylesheet" type="text/css" href="dist/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -49,14 +51,15 @@
         <!-- Filter bar coding -->
         <input ng-model="query" type="text" placeholder="Filter by" autofocus>
       </form>
+          <!-- Mountain Display section starts here -->
       <div>
         <div class='mountain' ng-repeat='mountain in mountains | filter:query | orderBy:sortType'>
-          <h6 ng-cloak id=' {{ mountain.mountain }}' ng-click='setMountain(mountain.mountain)'> <button class='mt-button'>{{ mountain.mountain }} <br /> {{ mountain.height }} Feet</button></h6>
+          <h6 ng-cloak id=' {{ mountain.mountain }}' ng-click='setMountain(mountain.mountain)'> <button class='mt-button'>{{ mountain.mountain }} <span class='height'><br /> {{ mountain.height }} Feet</span></button></h6>
         </div>
       </div>
     </div>
 
-    <!-- Mountain Display section starts here -->
+
     <!-- **** Make a starting panel so its not all blank **** -->
     <div class='mountain-display'>  
       <div ng-cloak ng-repeat="mountain in mountains">
@@ -65,7 +68,7 @@
           <img class='mt-img'ng-src="{{ mountain.img }}" alt="Description" ng-show='thisMountain(mountain.mountain)'/> <br /> 
           <span class='mt-height'> {{ mountain.height }} Feet</span> <br /> 
           <span class='mt-difficulty'>Difficulty: {{ mountain.difficulty }}</span> <br /><br />
-          <p>  {{ mountain.descr }} </p>
+          <p class='mt-descr'>  {{ mountain.descr }} </p>
            <form>
           <label>Check if you've hiked it<input type='checkbox'></input></label> </br>
           <input type ='text' value='put any notes on your hike here' class='note-tracker'></input>
