@@ -12,6 +12,14 @@ body{
 	padding: 0;
 }
 
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
 /* Buttons */
 
 .button{
@@ -315,16 +323,32 @@ header{
 /* About Us Section */
 
 #aboutUs {
-	text-align: center;
-	height: auto;
-		h3 {
-		color: rgb(66, 137, 157);
+	width: 100%;
+		h2 {
+		color: $amcGreen;
 		font-style: italic;
 		padding-bottom: 20px;
-		border-bottom: 5px solid rgb(66, 137, 157);
+		border-bottom: 5px solid $amcGreen;
 		max-width: 450px;
-		margin: 0 auto 50px;
+		margin: 0 auto 30px;
 		}
+		.inner-wrapper {
+		min-height: 550px;
+		text-align: center;
+		padding: 50px;
+		width: 100%;
+			p{
+				padding: 20px;
+				min-height: 180px;
+			}
+		}
+		.two-coumn-1{
+			padding-right: 0;
+		}
+		.two-column-2{
+		float: right;
+		padding-left: 0;
+	}
 }
 
 /* Tracker Page */
@@ -448,6 +472,13 @@ textarea {
 	}
 
 	}
+
+/* 	Contact */
+/* CODE ME A FLEXBOX WOO */
+.contact{
+	text-align: center;
+}
+
 /* Footer */
 
 footer {
