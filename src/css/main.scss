@@ -357,7 +357,7 @@ header{
 	text-align: center;
 	padding-top: 30px;
 	h4{
-		margin: 0;
+		margin: 0 0 20px 0;
 	}
 }
 
@@ -367,11 +367,6 @@ header{
 		margin: 5px 0 5px 0;
 		text-align: center;
 
-		}
-
-	
-	form{
-		color: white;
 		}
 }
 
@@ -420,6 +415,13 @@ header{
 	}
 	p{
 		text-align: left;
+	}
+	form{
+	background-color: white;
+	text-align: left;
+		.check-box{
+		margin: 10px;
+			}
 	}
 }
 
@@ -474,9 +476,20 @@ textarea {
 	}
 
 /* 	Contact */
-/* CODE ME A FLEXBOX WOO */
+
 .contact{
 	text-align: center;
+	color: $amcGreen;
+	& a{
+		color: $amcGreen;
+		text-decoration: none;
+	}
+	.photo{
+		margin: 7%;
+		& img{
+			height: 250px;
+		}
+	}
 }
 
 /* Footer */

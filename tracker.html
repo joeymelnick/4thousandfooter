@@ -53,7 +53,9 @@
       </form>
           <!-- Mountain Display section starts here -->
       <div>
+<!--         this filter makes sure that its only searching mountains and it is ordered by whatever sort type is set to and if it is clicked twice it will reverse that order -->
         <div class='mountain' ng-repeat="mountain in mountains | filter:{'mountain': query} | orderBy:sortType:reverse">
+          
           <h6 ng-cloak id=' {{ mountain.mountain }}' ng-click='setMountain(mountain.mountain)'> <button class='mt-button'>{{ mountain.mountain }} <span class='height'><br /> {{ mountain.height }} Feet</span></button></h6>
         </div>
       </div>
@@ -61,16 +63,21 @@
 
 
     <!-- **** Make a starting panel so its not all blank **** -->
+    <!-- in retrospect i could have done this using views and a router, probably not neccesary for this small of a project -->
     <div class='mountain-display'>  
       <div ng-cloak ng-repeat="mountain in mountains">
+<!--         only shows if this mountain has been clicked -->
         <div ng-show='thisMountain(mountain.mountain)'> 
+
           <span class='mt-title'>{{mountain.mountain}}</span> <br />
           <img class='mt-img'ng-src="{{ mountain.img }}" alt="Description" ng-show='thisMountain(mountain.mountain)'/> <br /> 
-          <span class='mt-height'> {{ mountain.height }} Feet</span> <br /> 
+          <span class='mt-height'> {{ mountain.height }} Feet</span> <br />
           <span class='mt-difficulty'>Difficulty: {{ mountain.difficulty }}</span> <br /><br />
           <p class='mt-descr'>  {{ mountain.descr }} </p>
-           <form>
-          <label>Check if you've hiked it<input type='checkbox'></input></label> </br>
+           
+<!--           input form needs to be updated -->
+           <form class='form'>
+          <label class='check-box'>Check if you've hiked it<input type='checkbox'></input></label> </br>
           <input type ='text' value='put any notes on your hike here' class='note-tracker'></input>
         </form> 
         </div>
