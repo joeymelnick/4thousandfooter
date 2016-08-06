@@ -6,6 +6,13 @@ $backgroundColor: #f0f0f0;
 $black:  #333;
 
 /* Layout */
+html{
+	height: 100%;
+	body{
+		min-height: 100%;
+	}
+}
+
 .container{
 	width: 100%;
 }

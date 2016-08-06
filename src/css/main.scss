@@ -10,6 +10,14 @@ body{
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ background-image: url(../images/background.jpg);
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .clearfix:after {
@@ -241,7 +249,7 @@ header{
 	width: 100%;
 	min-height: 300px;
 	text-align: center;
-	margin-bottom: 20px;
+	background-color: $backgroundColor;
 
 	.two-column-2{
 		float: right;
@@ -417,14 +425,41 @@ header{
 		text-align: left;
 	}
 	form{
-	background-color: white;
-	text-align: left;
-	width: 60%;
-	margin: 0 auto;
-	padding: 20px;
-		.check-box{
-		padding: 10px;
-			}
+    background-color: rgba(28,77,66,0.4);
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px 20px 40px 20px;
+    border-radius: 5px;
+    	.label2{
+    		display: inline-block;
+    		vertical-align: middle;
+    		padding: 0 15px;
+    	}
+    	.label1{
+    		display: inline-block;
+    		vertical-align: middle;
+    
+    	}
+		.check-container{
+			margin-bottom: 20px;
+    		margin: 0 auto 20px auto;
+    		width: 95%;
+		}
+		input[type='checkbox']{
+			width:20px;
+    		height:20px;
+    		vertical-align: middle;
+		}
+		button[type='submit']{
+			float: right;
+			margin: 10px;
+		}
+		textarea{
+			width: 95%;
+    		display: block;
+   			margin: 0 auto;
+		}
 	}
 }
 
@@ -438,11 +473,6 @@ header{
 	margin: 0 auto;
 	text-align: left;
 	color: white;
-}
-
-textarea {
-	width:45%;
-	vertical-align: top;
 }
 
 .hidden {
@@ -482,9 +512,9 @@ textarea {
 
 .contact{
 	text-align: center;
-	color: $amcGreen;
+	color: black;
 	& a{
-		color: $amcGreen;
+		color: black;
 		text-decoration: none;
 	}
 	.photo{
@@ -493,12 +523,14 @@ textarea {
 			height: 250px;
 		}
 	}
+	
 }
 
 /* Footer */
 
 footer {
 	width: 100%;
+	background-color: $backgroundColor;
 	p {
 		font-family: "Courier New", Courier, monospace; ;
 	}
@@ -511,11 +543,6 @@ footer {
 	}	
 }
 
-
-label{
-	color: black;
-
-}
 
 	
 
